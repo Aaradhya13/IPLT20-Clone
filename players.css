@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:200vh;
+}
+
+.a-main{
+   max-width:100%;
+    height:200vh;
+}
+.a-navbar{
+    z-index:100;
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: #19398A;
+    width:100%;
+    height:1.5%;
+    font-family: "Rubik", sans-serif;
+   
+}
+.a-left{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-left img{
+    height:3rem;
+ }
+
+.a-mid{
+    display: flex;
+    width:50rem;
+    align-items: center;
+    justify-content: center;
+}
+.a-mid ul {
+    color:white;
+    display: flex;
+}
+.a-mid ul li{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.a-mid ul li i{
+    opacity: 0.4;
+}
+.a-right{
+    width:30rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-right img{
+    height: 1.5rem;
+}
+
+
+.b-top{
+    width: 100%;
+    height: 50vh;
+    background-color: #192f73;
+}
+
+.im1 img{
+    height: 35vh;
+  margin: 7vh;
+  position: absolute;
+  top: 40px;
+}
+.b-batter-head{
+    margin: 20px 20px;
+    font-weight: 1000;
+    font-style: bold;
+}
+
+.team-name{
+    font-family:"Rubik", sans-serif ;
+    font-weight:1000;
+    text-transform: uppercase;
+    font-style: bold;
+    position: absolute;
+  top: 40vh;
+  margin: 0px 400px;
+}
+.player-section {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    border:1px solid black;
+}
+.box {
+     height: 400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+.box-img {
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+.box-content p {
+    color:#696e6e;
+}
+.box-content h2 p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+    font-style: sans-serif;
+    margin:0px 0px 16px;
+    padding:20px;
+}
